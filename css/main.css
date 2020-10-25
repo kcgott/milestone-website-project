@@ -1,0 +1,168 @@
+/*****Base Styles*****/
+body {
+  font-family: "Roboto", sans-serif;
+  color: #095156
+}
+
+/*****Grid*****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+.half-width {
+  width: 600px;
+  float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/*****Header*****/
+header {
+  height: 600px;
+  background: url("../img/hero-image.png");
+  background-size: cover;
+  padding: 0;
+}
+header h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  color: #bdbf09;
+  padding: 100px 50px 0 50px;
+  clear: both;
+}
+header h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  text-align: center;
+  padding: 0 250px;
+  clear: both;
+}
+nav {
+  float: right;
+  padding-top: 75px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  color: #095156;
+  padding-left: 60px;
+}
+/*****Portfolio*****/
+#portfolio {
+  height: 1600px;
+}
+#portfolio .half-width {
+  height: 375px;
+}
+#portfolio h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+#portfolio h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+}
+#portfolio h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: left;
+}
+#portfolio p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: left;
+}
+/*****About*****/
+#about {
+  height: 575px;
+  background-color: #087e8b;
+}
+#about .full-width {
+  padding: 25px 75px;
+}
+#about .half-width {
+  height: 450px;
+}
+#about h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+#about h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: left;
+}
+#about p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #ffffff;
+  text-align: left;
+}
+
+/*****Contact*****/
+#contact {
+  height: 400px;
+  background-color: #ffffff;
+}
+#contact .full-width {
+  padding: 50px 75px;
+}
+#contact .half-width {
+}
+#contact h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #bdbf09;
+  text-align: center;
+}
+#contact h3 {
+  font-family: "Roboto Slab", serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #bdbf09;
+  text-align: left;
+}
+#contact p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #bdbf09;
+  text-align: center;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact a {
+  text-decoration: none;
+  color: #bdbf09;
+}
+/*****Footer*****/
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  text-align: left;
+}
